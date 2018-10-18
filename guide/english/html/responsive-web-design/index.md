@@ -14,7 +14,7 @@ In order to create a responsive web page, CSS is commonly used to style your HTM
 
 ### 1. Media queries
 
-Media queries tell the web browser to ignore or replace properties of the webpage based on specific attributes like screen width or whether the user is printing.
+Media queries tell the web browser to ignore or replace properties of the webpage based on specific attributes like screen width or whether the user is printing. In responsive web design, it is not uncommon to build webpages starting from the smallest viewports or screen size to the largest. These individual css rules for each screen size is sometimes referred to as 'breakpoints' - a breakpoint is hit when the viewport is of a particular size. The example below demonstrates that:
 
 ```
 @media (query) {
